@@ -19,11 +19,11 @@ return [
     | the role if it is in a different namespace.
     |
     */
-    'role' => 'App\Role',
+    'role' => 'App\Models\Role',
 
     /*
     |--------------------------------------------------------------------------
-    | Entrust Roles Table
+    | Entrust Roles Table 
     |--------------------------------------------------------------------------
     |
     | This is the roles table used by Entrust to save roles to the database.
@@ -51,7 +51,7 @@ return [
     | Update the User if it is in a different namespace.
     |
     */
-    'user' => 'App\User',
+    'user' => 'App\Models\User',
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +95,7 @@ return [
     | Update the permission if it is in a different namespace.
     |
     */
-    'permission' => 'App\Permission',
+    'permission' => 'App\Models\Permission',
 
     /*
     |--------------------------------------------------------------------------
